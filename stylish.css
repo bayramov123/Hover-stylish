@@ -16,7 +16,7 @@ padding: 185px 0;
    
 }
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 .stylish p{
     font-style: italic;
@@ -112,5 +112,50 @@ color: #070707;
 .icon-holder h3{
     padding: 20px 0;
 }
+.port-header{
+text-align: center;
+margin: 45px 0;
+}
+.port-header p{
+    color: gold;
+}
+.port-header h2{
+    font-size: 3rem;
 
+}
+.port-item{
+    width: 50%;
+    /* background:url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-1.jpg); */
+    
+    float: left;
+    color: white;
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.port-item:hover{
+    clip-path: inset(15px);
+    transition: .3s;
+    filter: grayscale(100%);
+}
+.port-text {
+margin-top: 200px;
+}
+.photo1{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-1.jpg);
+    background-size: cover; 
+}
+.photo2{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-2.jpg);
+    background-size: cover;
+}
+.photo3{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-3.jpg);
+    background-size: cover;
+}
+.photo4{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-4.jpg);
+    background-size: cover;
+}
 
